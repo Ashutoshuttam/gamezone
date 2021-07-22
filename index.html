@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <meta charset="utf-8">
+  <title>GAME ZONE</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/829f4d9aae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="Images/logo.png" alt="gaming logo in blue background"></a>
+      <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">GAMES</a></li>
+          <li><a href="#">TEAM UP</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="title-line">
+      <h1>GAME ZONES WORLD</h1>
+      <p>Welcome to GAME ZONE World where you can beat other player and also play with Other World's Best Player.<br> So create Your Team and play with Others.</p>
+      <a href="#" class="joinus-btn">JOIN US</a>
+    </div>
+  </section>
+  <!-- GAMES -->
+  <section class="games">
+    <h1>Games You can Play</h1>
+    <p>Get Lost in the World of Gaming and Enjoy <br>Here are the games you can play.</p>
+    <div class="row">
+      <div class="games-col">
+        <h3>VALORANT</h3>
+        <p>Riot games Presents VALORANT: a 5v5 Character based tactical FPS where precise gunplay meets unique agent abilities.</p>
+      </div>
+      <div class="games-col">
+        <h3>BGMI</h3>
+        <p>We welcome our beloved fans of battle royale games to BATTLEGROUNDS MOBILE INDIA, directly serviced by KRAFTON. Download BATTLEGROUNDS MOBILE INDIA for free.</p>
+      </div>
+      <div class="games-col">
+        <h3>FORNITE</h3>
+        <p>Fortnite is a free-to-play Battle Royale game with numerous game modes for every type of game player. Watch a concert, build an island or fight. Lets Play</p>
+      </div>
+    </div>
+  </section>
+  <!-- TEAM UP -->
+  <section class="Team-up">
+    <h1>Create Your Team.</h1>
+    <p>Here You can play with your squad or join other player worldwide.</p>
+    <div class="row">
+      <div class="team-col">
+        <img src="Images/valorant.jpg" alt="valorant display image with different agents">
+        <div class="layer">
+          <h3>VALORANT</h3>
+        </div>
+      </div>
+      <div class="team-col">
+        <img src="Images/bgmi.jpg" alt="BGMI display image with different agents">
+        <div class="layer">
+          <h3>BGMI</h3>
+        </div>
+      </div>
+      <div class="team-col">
+        <img src="Images/fornite.jpg" alt="Fortnite display image with different agents">
+        <div class="layer">
+          <h3>FORNITE</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- PLAYERS WORDS -->
+  <section class="player-words">
+    <h1>What Our Members Says</h1>
+    <p>This is very nice site to play with your friends and increase onces performance.</p>
+    <div class="row">
+      <div class="player-col">
+        <img src="Images/mortal.jpg">
+        <div>
+          <p>This is very nice site to play with your friends and increase onces performance.</p>
+          <h3>Mortal</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+      <div class="player-col">
+        <img src="Images/tenz.jpeg">
+        <div>
+          <p>This is very nice site to play with your friends and increase onces performance.</p>
+          <h3>Tenz</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact US -->
+  <section class="contact">
+    <h1>Become Members From Anywhere <br>In The World.</h1>
+    <a href="#" class="joinus-btn">CONTACT US.</a>
+  </section>
+  <section class="comment">
+    <div class="comment-box">
+      <h3>Leave a Comment</h3>
+      <form class="comment-form" action="index.html" method="post">
+        <input type="text" name="" value="Enter Name">
+          <input type="email" name="" value="Enter Email">
+          <textarea name="Your Comment" rows="5">Your Comment</textarea>
+          <button class="submit-btn" type="button" name="button">SUBMIT</button>
+
+      </form>
+
+    </div>
+
+  </section>
+  <!-- FOOTER -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>We are leading company on this Area. This helps in improving the games performance and help in achieve the rank you want.</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+</div>
+<p>Made by <i class="fa fa-heart-o"></i> Ashutosh.</p>
+  </section>
+
+
+
+  <!-- To comment some things use control + forward slash -->
+  <!-- Javascript for toggle menu -->
+  <script>
+    var navLink = document.getElementById("navLink");
+
+    function showMenu() {
+      navLink.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLink.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
